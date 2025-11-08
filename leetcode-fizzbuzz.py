@@ -1,9 +1,13 @@
 def fizzbuzz(n: int) -> list[str] | None:
     
     """Return a string array answer (1-indexed) where:
-       Params:
+    
+       Parameters:
+       ----------
        - n: an integer
+       
        Returns:
+       --------
        - a list of strings
     """
     result = []

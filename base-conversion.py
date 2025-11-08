@@ -1,5 +1,16 @@
-def base_conversion(base_to, input):
-    """A python function to easyly convert a decimal number to a given base like 2, 4, 8 except base 16 and above [for now]."""
+def base_conversion(base_to: int, input: int) -> str | None:
+    
+    """A python function to easyly convert a decimal number to a given base like 2, 4, 8 except base 16 and above [for now].
+       Parameters:
+       ----------
+       - base_to: an integer
+       - input: an integer
+       
+       Returns:
+       --------
+       - output: a string
+    """
+    
     temp = input // base_to
     output = ""
     # a = []
