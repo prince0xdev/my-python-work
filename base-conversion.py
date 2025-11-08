@@ -19,5 +19,5 @@ def base_conversion(base_to, input):
 #Run base_conversion function
 base_conversion(2, 8)
 base_conversion(8, 100)
-# base_conversion(16, 1244)
+base_conversion(16, 1244)
 base_conversion(10, 888)
